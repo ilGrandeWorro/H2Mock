@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:h2mock
+    username: testdb
+    password: psw1234
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+  h2:
+    enabled: true
